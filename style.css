@@ -1,0 +1,105 @@
+*{
+    background-color: #5D6D7E;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+
+}
+
+
+h1{
+    color: white;
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 0 0 100px;
+
+}
+
+.inputs{
+    margin: 50px 70px 50px 30px ;
+        width: 400px;
+        height: 300px;
+        
+        padding: 30px;
+        margin: 30px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;  
+        background-color: #43606b;  
+}
+
+#inp{
+    padding: 10px 10px 10px 10px;
+    box-shadow: rgba(36, 58, 70, 0.17) 0px -23px 25px 0px inset, rgba(50, 72, 79, 0.169) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    width: 160px;
+    height: 60px;
+    padding: 15px;
+}
+
+:root {
+    --primary: #05759a;
+    --primary-dark: #007fa9;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  
+  /*.container {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+  }*/
+  
+  .button {
+    background: var(--primary);
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 6px 0 var(--primary-dark), 0 5px 15px -4px #000;
+    color: #fff;
+    cursor: pointer;
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 800;
+    height: 50px;
+    padding: 5px;
+    text-transform: uppercase;
+    transition: box-shadow 0.2s ease-in-out, margin-top 0.2s ease-in-out,
+      opacity 0.2s ease-in-out;
+    width: 150px;
+  }
+  
+  .button:hover,
+  .button:focus {
+    opacity: 0.9;
+    outline: 0;
+  }
+  
+  .button:active {
+    box-shadow: none;
+    margin-top: 6px;
+  }
+
+  * {
+  box-sizing: border-box;
+}
+
+.text{
+    margin-top: 10px;
+    text-align: left;
+    font-size: large;  
+    font-family: sans-serif;  
+    font-weight: 500;
+}
+
+
